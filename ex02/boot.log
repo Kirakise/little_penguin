@@ -1,0 +1,135 @@
+Jan 25 16:26:36 +03:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Jan 25 16:26:36 +03:00 (none)  Bringing up the loopback interface... OK
+Jan 25 16:26:36 +03:00 (none)  Setting hostname to rcaraway... OK
+Jan 25 16:26:36 +03:00 rcaraway  Populating /dev with device nodes...  OK
+Jan 25 16:26:39 +03:00 rcaraway  Activating all swap files/partitions... OK
+Jan 25 16:26:39 +03:00 rcaraway  Mounting root file system in read-only mode...  OK
+Jan 25 16:26:39 +03:00 rcaraway  Checking file systems... OK
+Jan 25 16:26:39 +03:00 rcaraway  Remounting root file system in read-write mode... OK
+Jan 25 16:26:39 +03:00 rcaraway  Mounting remaining file systems... OK
+Jan 25 16:26:39 +03:00 rcaraway  Cleaning file systems: /tmp OK
+Jan 25 16:26:40 +03:00 rcaraway  Retrying failed uevents, if any... OK
+Jan 25 16:26:41 +03:00 rcaraway  Starting system log daemon... OK
+Jan 25 16:26:41 +03:00 rcaraway  Starting kernel log daemon... OK
+Jan 25 16:26:41 +03:00 rcaraway  Bringing up the eth0 interface...Jan 25 16:26:41 +03:00 rcaraway  Interface eth0 doesn't exist. FAIL
+--------
+Jan 25 16:41:50 +03:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Jan 25 16:41:50 +03:00 (none)  Bringing up the loopback interface... OK
+Jan 25 16:41:50 +03:00 (none)  Setting hostname to rcaraway... OK
+Jan 25 16:41:50 +03:00 rcaraway  Populating /dev with device nodes...  OK
+Jan 25 16:41:53 +03:00 rcaraway  Activating all swap files/partitions... OK
+Jan 25 16:41:53 +03:00 rcaraway  Mounting root file system in read-only mode...  OK
+Jan 25 16:41:53 +03:00 rcaraway  Checking file systems... OK
+Jan 25 16:41:53 +03:00 rcaraway  Remounting root file system in read-write mode... OK
+Jan 25 16:41:53 +03:00 rcaraway  Mounting remaining file systems... OK
+Jan 25 16:41:54 +03:00 rcaraway  Cleaning file systems: /tmp OK
+Jan 25 16:41:54 +03:00 rcaraway  Retrying failed uevents, if any... OK
+Jan 25 16:41:55 +03:00 rcaraway  Starting system log daemon... OK
+Jan 25 16:41:55 +03:00 rcaraway  Starting kernel log daemon... OK
+Jan 25 16:41:55 +03:00 rcaraway  Bringing up the eth0 interface...Jan 25 16:41:55 +03:00 rcaraway  Interface eth0 doesn't exist. FAIL
+--------
+Jan 26 14:01:31 +03:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Jan 26 14:01:31 +03:00 (none)  Bringing up the loopback interface... OK
+Jan 26 14:01:31 +03:00 (none)  Setting hostname to rcaraway... OK
+Jan 26 14:01:31 +03:00 rcaraway  Populating /dev with device nodes...  OK
+Jan 26 14:01:35 +03:00 rcaraway  Activating all swap files/partitions... OK
+Jan 26 14:01:35 +03:00 rcaraway  Mounting root file system in read-only mode...  OK
+Jan 26 14:01:35 +03:00 rcaraway  Checking file systems... OK
+Jan 26 14:01:35 +03:00 rcaraway  Remounting root file system in read-write mode... OK
+Jan 26 14:01:35 +03:00 rcaraway  Mounting remaining file systems... OK
+Jan 26 14:01:35 +03:00 rcaraway  Cleaning file systems: /tmp OK
+Jan 26 14:01:35 +03:00 rcaraway  Retrying failed uevents, if any... OK
+Jan 26 14:01:36 +03:00 rcaraway  Starting system log daemon... OK
+Jan 26 14:01:36 +03:00 rcaraway  Starting kernel log daemon... OK
+Jan 26 14:01:36 +03:00 rcaraway  Bringing up the eth0 interface...Jan 26 14:01:36 +03:00 rcaraway  Interface eth0 doesn't exist. FAIL
+--------
+Jan 26 14:07:59 +03:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Jan 26 14:07:59 +03:00 (none)  Bringing up the loopback interface... OK
+Jan 26 14:07:59 +03:00 (none)  Setting hostname to rcaraway... OK
+Jan 26 14:07:59 +03:00 rcaraway  Populating /dev with device nodes...  OK
+Jan 26 14:08:01 +03:00 rcaraway  Activating all swap files/partitions... OK
+Jan 26 14:08:01 +03:00 rcaraway  Mounting root file system in read-only mode...  OK
+Jan 26 14:08:01 +03:00 rcaraway  Checking file systems... OK
+Jan 26 14:08:01 +03:00 rcaraway  Remounting root file system in read-write mode... OK
+Jan 26 14:08:01 +03:00 rcaraway  Mounting remaining file systems... OK
+Jan 26 14:08:01 +03:00 rcaraway  Cleaning file systems: /tmp OK
+Jan 26 14:08:01 +03:00 rcaraway  Retrying failed uevents, if any... OK
+Jan 26 14:08:02 +03:00 rcaraway  Starting system log daemon... OK
+Jan 26 14:08:02 +03:00 rcaraway  Starting kernel log daemon... OK
+Jan 26 14:08:02 +03:00 rcaraway  Bringing up the eth0 interface...Jan 26 14:08:02 +03:00 rcaraway  Interface eth0 doesn't exist. FAIL
+--------
+Jan 26 15:20:16 +03:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Jan 26 15:20:16 +03:00 (none)  Bringing up the loopback interface... OK
+Jan 26 15:20:16 +03:00 (none)  Setting hostname to rcaraway... OK
+Jan 26 15:20:16 +03:00 rcaraway  Populating /dev with device nodes...  OK
+Jan 26 15:20:19 +03:00 rcaraway  Activating all swap files/partitions... OK
+Jan 26 15:20:20 +03:00 rcaraway  Mounting root file system in read-only mode...  OK
+Jan 26 15:20:20 +03:00 rcaraway  Checking file systems... OK
+Jan 26 15:20:20 +03:00 rcaraway  Remounting root file system in read-write mode... OK
+Jan 26 15:20:20 +03:00 rcaraway  Mounting remaining file systems... OK
+Jan 26 15:20:20 +03:00 rcaraway  Cleaning file systems: /tmp OK
+Jan 26 15:20:20 +03:00 rcaraway  Retrying failed uevents, if any... OK
+Jan 26 15:20:21 +03:00 rcaraway  Starting system log daemon... OK
+Jan 26 15:20:21 +03:00 rcaraway  Starting kernel log daemon... OK
+Jan 26 15:20:21 +03:00 rcaraway  Bringing up the eth0 interface...Jan 26 15:20:21 +03:00 rcaraway  Interface eth0 doesn't exist. FAIL
+--------
+Jan 27 17:54:02 +03:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Jan 27 17:54:02 +03:00 (none)  Bringing up the loopback interface... OK
+Jan 27 17:54:02 +03:00 (none)  Setting hostname to rcaraway... OK
+Jan 27 17:54:02 +03:00 rcaraway  Populating /dev with device nodes...  OK
+Jan 27 17:54:05 +03:00 rcaraway  Activating all swap files/partitions... OK
+Jan 27 17:54:05 +03:00 rcaraway  Mounting root file system in read-only mode...  OK
+Jan 27 17:54:05 +03:00 rcaraway  Checking file systems... OK
+Jan 27 17:54:05 +03:00 rcaraway  Remounting root file system in read-write mode... OK
+Jan 27 17:54:05 +03:00 rcaraway  Mounting remaining file systems... OK
+Jan 27 17:54:05 +03:00 rcaraway  Cleaning file systems: /tmp OK
+Jan 27 17:54:05 +03:00 rcaraway  Retrying failed uevents, if any... OK
+Jan 27 17:54:06 +03:00 rcaraway  Starting system log daemon... OK
+Jan 27 17:54:06 +03:00 rcaraway  Starting kernel log daemon... OK
+Jan 27 17:54:06 +03:00 rcaraway  Bringing up the eth0 interface...Jan 27 17:54:06 +03:00 rcaraway  Interface eth0 doesn't exist. FAIL
+--------
+Jan 28 15:44:17 +03:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Jan 28 15:44:17 +03:00 (none)  Bringing up the loopback interface... OK
+Jan 28 15:44:17 +03:00 (none)  Setting hostname to rcaraway... OK
+Jan 28 15:44:17 +03:00 rcaraway  Populating /dev with device nodes...  OK
+Jan 28 15:44:20 +03:00 rcaraway  Activating all swap files/partitions... OK
+Jan 28 15:44:20 +03:00 rcaraway  Mounting root file system in read-only mode...  OK
+Jan 28 15:44:20 +03:00 rcaraway  Checking file systems... OK
+Jan 28 15:44:20 +03:00 rcaraway  Remounting root file system in read-write mode... OK
+Jan 28 15:44:20 +03:00 rcaraway  Mounting remaining file systems... OK
+Jan 28 15:44:20 +03:00 rcaraway  Cleaning file systems: /tmp OK
+Jan 28 15:44:21 +03:00 rcaraway  Retrying failed uevents, if any... OK
+Jan 28 15:44:22 +03:00 rcaraway  Starting system log daemon... OK
+Jan 28 15:44:22 +03:00 rcaraway  Starting kernel log daemon... OK
+Jan 28 15:44:22 +03:00 rcaraway  Bringing up the eth0 interface...Jan 28 15:44:22 +03:00 rcaraway  Interface eth0 doesn't exist. FAIL
+--------
+Feb 02 12:52:27 +03:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Feb 02 12:52:27 +03:00 (none)  Bringing up the loopback interface... OK
+Feb 02 12:52:28 +03:00 (none)  Setting hostname to rcaraway... OK
+Feb 02 12:52:28 +03:00 rcaraway  Populating /dev with device nodes...  OK
+Feb 02 12:52:31 +03:00 rcaraway  Activating all swap files/partitions... OK
+Feb 02 12:52:32 +03:00 rcaraway  Mounting root file system in read-only mode...  OK
+Feb 02 12:52:32 +03:00 rcaraway  Checking file systems... OK
+Feb 02 12:52:32 +03:00 rcaraway  Remounting root file system in read-write mode... OK
+Feb 02 12:52:32 +03:00 rcaraway  Mounting remaining file systems... OK
+Feb 02 12:52:32 +03:00 rcaraway  Cleaning file systems: /tmp OK
+Feb 02 12:52:32 +03:00 rcaraway  Retrying failed uevents, if any... OK
+Feb 02 12:52:33 +03:00 rcaraway  Starting system log daemon... OK
+Feb 02 12:52:33 +03:00 rcaraway  Starting kernel log daemon... OK
+Feb 02 12:52:33 +03:00 rcaraway  Bringing up the eth0 interface...Feb 02 12:52:33 +03:00 rcaraway  Interface eth0 doesn't exist. FAIL
+--------
+Feb 02 15:20:13 +03:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Feb 02 15:20:13 +03:00 (none)  Bringing up the loopback interface... OK
+Feb 02 15:20:13 +03:00 (none)  Setting hostname to rcaraway... OK
+Feb 02 15:20:13 +03:00 rcaraway  Populating /dev with device nodes...  OK
+Feb 02 15:20:16 +03:00 rcaraway  Activating all swap files/partitions... OK
+Feb 02 15:20:16 +03:00 rcaraway  Mounting root file system in read-only mode...  OK
+Feb 02 15:20:16 +03:00 rcaraway  Checking file systems... OK
+Feb 02 15:20:16 +03:00 rcaraway  Remounting root file system in read-write mode... OK
+Feb 02 15:20:16 +03:00 rcaraway  Mounting remaining file systems... OK
+Feb 02 15:20:17 +03:00 rcaraway  Cleaning file systems: /tmp OK
+Feb 02 15:20:17 +03:00 rcaraway  Retrying failed uevents, if any... OK
+Feb 02 15:20:18 +03:00 rcaraway  Starting system log daemon... OK
+Feb 02 15:20:18 +03:00 rcaraway  Starting kernel log daemon... OK
+Feb 02 15:20:18 +03:00 rcaraway  Bringing up the eth0 interface...Feb 02 15:20:18 +03:00 rcaraway  Interface eth0 doesn't exist. FAIL
+--------
