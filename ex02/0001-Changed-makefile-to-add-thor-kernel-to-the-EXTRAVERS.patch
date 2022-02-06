@@ -1,0 +1,26 @@
+From e970125eb4f65a6f2fd116af8fdaa9b1a1446ed5 Mon Sep 17 00:00:00 2001
+From: rcaraway <rcaraway@21-school.ru>
+Date: Sun, 6 Feb 2022 16:14:48 +0000
+Subject: [PATCH] Changed makefile to add -thor-kernel to the EXTRAVERSION
+ variable
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index be0cd3d43ae9..30fb7e2ce83c 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 17
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc2
++EXTRAVERSION = -rc2-thor-kernel
+ NAME = Gobble Gobble
+ 
+ # *DOCUMENTATION*
+-- 
+2.34.1
+

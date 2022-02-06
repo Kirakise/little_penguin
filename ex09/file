@@ -1,0 +1,89 @@
+make -C /lib/modules/5.13.12-rcaraway/build M=/root/peng/ex09 modules
+make[1]: Entering directory '/usr/src/kernel-5.13.12'
+  CC [M]  /root/peng/ex09/main.o
+/root/peng/ex09/main.c: In function ‘misc_42_read’:
+/root/peng/ex09/main.c:25:26: error: ‘LOOKUP_FOLLOW’ undeclared (first use in this function)
+   25 |         kernfs_path("/", LOOKUP_FOLLOW, &path);
+      |                          ^~~~~~~~~~~~~
+/root/peng/ex09/main.c:25:26: note: each undeclared identifier is reported only once for each function it appears in
+/root/peng/ex09/main.c:25:21: error: passing argument 1 of ‘kernfs_path’ from incompatible pointer type [-Werror=incompatible-pointer-types]
+   25 |         kernfs_path("/", LOOKUP_FOLLOW, &path);
+      |                     ^~~
+      |                     |
+      |                     char *
+In file included from ./include/linux/sysfs.h:16,
+                 from ./include/linux/kobject.h:20,
+                 from ./include/linux/module.h:20,
+                 from /root/peng/ex09/main.c:3:
+./include/linux/kernfs.h:540:51: note: expected ‘struct kernfs_node *’ but argument is of type ‘char *’
+  540 | static inline int kernfs_path(struct kernfs_node *kn, char *buf, size_t buflen)
+      |                               ~~~~~~~~~~~~~~~~~~~~^~
+/root/peng/ex09/main.c:25:41: warning: passing argument 3 of ‘kernfs_path’ makes integer from pointer without a cast [-Wint-conversion]
+   25 |         kernfs_path("/", LOOKUP_FOLLOW, &path);
+      |                                         ^~~~~
+      |                                         |
+      |                                         struct path *
+In file included from ./include/linux/sysfs.h:16,
+                 from ./include/linux/kobject.h:20,
+                 from ./include/linux/module.h:20,
+                 from /root/peng/ex09/main.c:3:
+./include/linux/kernfs.h:540:73: note: expected ‘size_t’ {aka ‘long unsigned int’} but argument is of type ‘struct path *’
+  540 | static inline int kernfs_path(struct kernfs_node *kn, char *buf, size_t buflen)
+      |                                                                  ~~~~~~~^~~~~~
+/root/peng/ex09/main.c:33:29: error: implicit declaration of function ‘strjoin’ [-Werror=implicit-function-declaration]
+   33 |                         s = strjoin(s, curdentry->d_name.name);
+      |                             ^~~~~~~
+/root/peng/ex09/main.c:33:27: warning: assignment to ‘char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   33 |                         s = strjoin(s, curdentry->d_name.name);
+      |                           ^
+/root/peng/ex09/main.c:34:25: error: implicit declaration of function ‘kfree’ [-Werror=implicit-function-declaration]
+   34 |                         kfree(tmp);
+      |                         ^~~~~
+/root/peng/ex09/main.c:36:27: warning: assignment to ‘char *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   36 |                         s = strjoin(s, "\n");
+      |                           ^
+/root/peng/ex09/main.c:43:1: error: no return statement in function returning non-void [-Werror=return-type]
+   43 | }
+      | ^
+/root/peng/ex09/main.c: At top level:
+/root/peng/ex09/main.c:50:1: error: expected ‘,’ or ‘;’ before ‘static’
+   50 | static int __init ft_init(void)
+      | ^~~~~~
+In file included from /root/peng/ex09/main.c:3:
+/root/peng/ex09/main.c: In function ‘__inittest’:
+/root/peng/ex09/main.c:61:13: error: ‘ft_init’ undeclared (first use in this function); did you mean ‘ft_exit’?
+   61 | module_init(ft_init);
+      |             ^~~~~~~
+./include/linux/module.h:131:18: note: in definition of macro ‘module_init’
+  131 |         { return initfn; }                                      \
+      |                  ^~~~~~
+In file included from ././include/linux/compiler_types.h:65,
+                 from <command-line>:
+/root/peng/ex09/main.c: At top level:
+/root/peng/ex09/main.c:61:13: error: ‘ft_init’ undeclared here (not in a function); did you mean ‘ft_exit’?
+   61 | module_init(ft_init);
+      |             ^~~~~~~
+./include/linux/compiler_attributes.h:109:65: note: in definition of macro ‘__copy’
+  109 | # define __copy(symbol)                 __attribute__((__copy__(symbol)))
+      |                                                                 ^~~~~~
+/root/peng/ex09/main.c:61:1: note: in expansion of macro ‘module_init’
+   61 | module_init(ft_init);
+      | ^~~~~~~~~~~
+In file included from /root/peng/ex09/main.c:3:
+./include/linux/module.h:132:13: error: ‘init_module’ aliased to undefined symbol ‘ft_init’
+  132 |         int init_module(void) __copy(initfn)                    \
+      |             ^~~~~~~~~~~
+/root/peng/ex09/main.c:61:1: note: in expansion of macro ‘module_init’
+   61 | module_init(ft_init);
+      | ^~~~~~~~~~~
+/root/peng/ex09/main.c:45:31: warning: ‘ops’ defined but not used [-Wunused-variable]
+   45 | static struct file_operations ops = {
+      |                               ^~~
+/root/peng/ex09/main.c:14:31: warning: ‘ent’ defined but not used [-Wunused-variable]
+   14 | static struct proc_dir_entry *ent;
+      |                               ^~~
+cc1: some warnings being treated as errors
+make[2]: *** [scripts/Makefile.build:273: /root/peng/ex09/main.o] Error 1
+make[1]: *** [Makefile:1862: /root/peng/ex09] Error 2
+make[1]: Leaving directory '/usr/src/kernel-5.13.12'
+make: *** [Makefile:4: all] Error 2
