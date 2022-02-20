@@ -35,11 +35,9 @@ static ssize_t id_file_write(struct file *flip, const char *buffer,
 
 	if (len != 8)
 		return -EINVAL;
-	if (strncmp("rcaraway", buffer, 8))
-		return -EINVAL;
 	if (simple_write_to_buffer(msg, len, offset, buffer, len) < 0)
 		return -EINVAL;
-	return (strncmp("rcaraway", msg, 8) == 0 ? 0 : -EINVAL);
+	return strncmp("rcaraway", msg, 8) ? -EINVAL : len;
 }
 
 static ssize_t foo_file_read(struct file *flip, char *buffer,
